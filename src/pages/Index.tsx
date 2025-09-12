@@ -280,7 +280,7 @@ const Index = () => {
               <Card className="shadow-card border-0 bg-card">
                 <CardContent className="space-y-4 p-6">
                   <p className="text-muted-foreground leading-relaxed italic">
-                    "Wir wussten nicht, wie weiter. Alles war so belastend, anstrengend, verletztend. Ohne dieses Paarcoaching hätten wir unseren Weg nicht gefunden."
+                    "Wir wussten nicht, wie weiter. Alles war so belastend, anstrengend, verletztend. Ohne dieses Paarcoaching hätten wir wohl aufgegeben. Jetzt haben wir gelernt, wie wir auch in ganz schwierigen Situationen kommunizieren können. Und wir wissen endlich, was jeder für sich – und was wir als Paar wollen. Es ist unglaublich, aber wir haben uns noch einmal neu kennengelernt."
                   </p>
                   <p className="text-sm font-medium text-foreground">Simone & Yves</p>
                 </CardContent>
