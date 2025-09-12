@@ -145,6 +145,14 @@ const Index = () => {
               <h2 className="text-3xl font-display font-bold text-foreground mb-4">
                 Über mich
               </h2>
+              <div className="max-w-2xl mx-auto">
+                <h3 className="text-xl font-display font-semibold text-primary mb-3">
+                  Meine Philosophie
+                </h3>
+                <p className="text-muted-foreground">
+                  In uns steckt ein riesiges Potenzial an Ressourcen. Ich arbeite lösungsorientiert und stehe für einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum.
+                </p>
+              </div>
             </div>
             
             <div className="space-y-8">
