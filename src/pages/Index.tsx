@@ -21,6 +21,9 @@ const Index = () => {
               <a href="#about" className="text-muted-foreground hover:text-primary transition-colors">
                 Über mich
               </a>
+              <a href="#reviews" className="text-muted-foreground hover:text-primary transition-colors">
+                Klientenreviews
+              </a>
               <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">
                 Kontakt
               </a>
@@ -219,7 +222,7 @@ const Index = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-12 sm:py-16 bg-background">
+      <section id="reviews" className="py-12 sm:py-16 bg-background">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
