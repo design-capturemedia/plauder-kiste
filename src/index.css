@@ -9,13 +9,13 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 180 20% 99%;
-    --foreground: 220 12% 15%; /* Darker anthracite */
+    --foreground: 220 15% 35%; /* Softer anthracite */
 
     --card: 180 30% 98%;
-    --card-foreground: 220 12% 15%; /* Darker anthracite */
+    --card-foreground: 220 15% 35%; /* Softer anthracite */
 
     --popover: 180 30% 98%;
-    --popover-foreground: 220 12% 15%; /* Darker anthracite */
+    --popover-foreground: 220 15% 35%; /* Softer anthracite */
 
     --primary: 45 60% 45%; /* Darker, more elegant gold */
     --primary-foreground: 0 0% 100%;
