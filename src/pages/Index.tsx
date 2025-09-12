@@ -200,7 +200,7 @@ const Index = () => {
               
               <Card className="shadow-card border-0 bg-card">
                 <CardHeader>
-                  <CardTitle className="text-lg font-display font-medium">Qualifikationen</CardTitle>
+                  <CardTitle className="text-lg font-display font-medium">Qualifikationen und Ausbildungen</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="space-y-2 text-muted-foreground">
