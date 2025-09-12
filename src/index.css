@@ -17,11 +17,11 @@ All colors MUST be HSL.
     --popover: 180 30% 98%;
     --popover-foreground: 220 8% 20%; /* Anthracite */
 
-    --primary: 45 85% 55%; /* Elegant gold */
+    --primary: 45 60% 45%; /* Darker, more elegant gold */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 45 25% 88%;
-    --secondary-foreground: 45 60% 20%;
+    --secondary: 45 20% 82%;
+    --secondary-foreground: 45 50% 25%;
 
     --muted: 180 15% 94%;
     --muted-foreground: 220 5% 45%; /* Lighter anthracite */
@@ -34,22 +34,22 @@ All colors MUST be HSL.
 
     --border: 180 20% 88%;
     --input: 180 20% 88%;
-    --ring: 45 85% 55%; /* Match primary */
+    --ring: 45 60% 45%; /* Match primary */
 
     /* Therapeutic color palette */
-    --therapy-sage: 45 45% 65%;
+    --therapy-sage: 45 35% 60%;
     --therapy-ocean: 195 65% 55%;
     --therapy-warm: 25 80% 70%;
     --therapy-neutral: 180 8% 85%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(45 85% 55%), hsl(50 80% 60%));
-    --gradient-soft: linear-gradient(180deg, hsl(45 15% 98%), hsl(40 20% 96%));
+    --gradient-hero: linear-gradient(135deg, hsl(45 60% 45%), hsl(50 55% 50%));
+    --gradient-soft: linear-gradient(180deg, hsl(45 12% 97%), hsl(40 15% 95%));
     --gradient-accent: linear-gradient(45deg, hsl(350 60% 65%), hsl(345 65% 60%));
     
     /* Shadows */
-    --shadow-soft: 0 4px 20px -8px hsl(45 85% 55% / 0.15);
-    --shadow-card: 0 8px 25px -8px hsl(45 30% 40% / 0.1);
+    --shadow-soft: 0 4px 20px -8px hsl(45 60% 45% / 0.12);
+    --shadow-card: 0 8px 25px -8px hsl(45 25% 35% / 0.08);
     
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
