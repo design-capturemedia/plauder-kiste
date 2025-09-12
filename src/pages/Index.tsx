@@ -147,59 +147,22 @@ const Index = () => {
               </h2>
             </div>
             
-            <div className="grid lg:grid-cols-3 gap-8 items-start">
-              <div className="lg:col-span-2 space-y-6">
-                <Card className="shadow-card border-0 bg-card">
-                  <CardHeader>
-                    <CardTitle className="text-xl font-display flex items-center gap-3">
-                      <Users className="h-6 w-6 text-primary" />
-                      Meine Philosophie
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <p className="text-muted-foreground leading-relaxed">
-                      Jeder Mensch trägt die Ressourcen für positive Veränderungen bereits in sich. 
-                      Als deine Hypnosetherapeutin und Paarcoach begleite ich dich dabei, diese Potentiale 
-                      zu entdecken und zu entfalten.
-                    </p>
-                    <p className="text-muted-foreground leading-relaxed">
-                      In meiner Praxis schaffe ich einen sicheren Raum, in dem du dich öffnen und 
-                      wachsen kannst. Durch einfühlsame Begleitung und bewährte Methoden unterstütze 
-                      ich dich auf deinem Weg zu mehr Wohlbefinden und erfüllten Beziehungen.
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
-              
-              <div className="space-y-6">
-                <Card className="shadow-card border-0 bg-card">
-                  <CardHeader>
-                    <CardTitle className="text-lg font-display">Qualifikationen</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-3">
-                    <div className="space-y-2 text-sm text-muted-foreground">
-                      <p>• Zertifizierte Hypnosetherapeutin</p>
-                      <p>• Systemische Paar- & Familientherapie</p>
-                      <p>• NLP Master Practitioner</p>
-                      <p>• Traumatherapie (EMDR)</p>
-                      <p>• Fortlaufende Weiterbildungen</p>
-                    </div>
-                  </CardContent>
-                </Card>
-                
-                <Card className="shadow-card border-0 bg-card">
-                  <CardHeader>
-                    <CardTitle className="text-lg font-display">Arbeitsweise</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground">
-                      Vertraulich, respektvoll und lösungsorientiert. 
-                      Jede Sitzung wird individuell auf deine Bedürfnisse abgestimmt.
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
+            <Card className="shadow-card border-0 bg-card">
+              <CardContent className="space-y-6 p-8">
+                <p className="text-muted-foreground leading-relaxed">
+                  Seit den späten achtziger Jahren habe ich in den Medien, in der Kommunikation, selbständig in der Modebranche und im höheren Management diverser Firmen und Branchen gearbeitet.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Neben meinen beruflichen Erfolgen war die Persönlichkeitsentwicklung immer ein zentrales Thema, zu welchem ich viele Seminare besucht und mich stetig weitergebildet habe. Selbstreflexion, Meditation und Selbsthypnose gehören zu meinem täglichen Leben.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  2016 hat ein einschneidendes Erlebnis dazu geführt, dass ich mein Leben neu gestalten und meiner Passion als Lebenscoach endlich nachgehen konnte. Meine reiche Lebenserfahrung und mein Talent auf andere Menschen einzugehen kann ich als Hypnose- und Paar-Therapeutin einsetzen und vielen Menschen damit helfen.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Ich bin selbst tief überzeugt von der Wirkung der therapeutischen Hypnose. Als Klientin durfte ich schon viele Hypnosesitzungen erfahren. Meine Philosophie: In uns steckt ein riesiges Potenzial an Ressourcen. Ich arbeite lösungsorientiert. Wir erarbeiten zusammen einen für dich gehbaren Weg zu einem ausgeglichenen und besseren Leben. Ich stehe für einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
