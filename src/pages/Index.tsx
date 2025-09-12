@@ -145,12 +145,12 @@ const Index = () => {
                 <div className="grid gap-4 md:grid-cols-2">
                   <div className="text-center p-4 bg-gradient-soft rounded-lg">
                     <h4 className="font-semibold text-foreground mb-2">Einzeltherapie</h4>
-                    <p className="text-2xl font-display font-bold text-primary">CHF 140.-</p>
+                    <p className="text-lg font-display font-bold text-foreground">CHF 140.-</p>
                     <p className="text-sm text-muted-foreground">pro Stunde</p>
                   </div>
                   <div className="text-center p-4 bg-gradient-soft rounded-lg">
                     <h4 className="font-semibold text-foreground mb-2">Paartherapie</h4>
-                    <p className="text-2xl font-display font-bold text-primary">CHF 220.-</p>
+                    <p className="text-lg font-display font-bold text-foreground">CHF 220.-</p>
                     <p className="text-sm text-muted-foreground">pro Stunde</p>
                   </div>
                 </div>
