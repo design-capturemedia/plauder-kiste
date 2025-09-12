@@ -254,7 +254,7 @@ const Index = () => {
                       <p className="font-medium text-foreground">E-Mail</p>
                       <a 
                         href="mailto:info@hypnose-therapie-raue.ch"
-                        className="text-muted-foreground hover:text-primary transition-colors break-all"
+                        className="text-muted-foreground hover:text-primary transition-colors text-lg font-medium"
                       >
                         info@hypnose-therapie-raue.ch
                       </a>
