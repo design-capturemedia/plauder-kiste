@@ -200,7 +200,7 @@ const Index = () => {
                 Kontakt & Terminvereinbarung
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground">
-                Nehmen Sie gerne Kontakt mit mir auf. Ich freue mich auf unser Gespräch.
+                Bitte kontaktiere mich unverbindlich telefonisch oder über das Kontaktformular.
               </p>
             </div>
             
