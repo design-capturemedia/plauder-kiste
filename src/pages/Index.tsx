@@ -107,7 +107,7 @@ const Index = () => {
                   <li>• Stressabbau und Burnoutprävention</li>
                   <li>• Ängste und Phobien überwinden</li>
                   <li>• Selbstvertrauen und Selbstwertgefühl stärken</li>
-                  <li>• Umgang mit Psychosomatischen Krankheiten lernen</li>
+                  <li>• Umgang mit psychosomatischen Krankheiten lernen</li>
                   <li>• Suchtverhalten verstehen und überwinden</li>
                 </ul>
               </CardContent>
