@@ -45,7 +45,7 @@ All colors MUST be HSL.
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(155 35% 50%), hsl(160 30% 55%));
     --gradient-soft: linear-gradient(180deg, hsl(180 30% 98%), hsl(175 30% 96%));
-    --gradient-accent: linear-gradient(45deg, hsl(25 80% 70%), hsl(35 75% 65%));
+    --gradient-accent: linear-gradient(45deg, hsl(350 60% 65%), hsl(345 65% 60%));
     
     /* Shadows */
     --shadow-soft: 0 4px 20px -8px hsl(155 35% 50% / 0.15);
