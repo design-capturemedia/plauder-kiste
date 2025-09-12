@@ -52,7 +52,7 @@ const Index = () => {
                   className="shadow-soft h-12 px-6"
                   asChild
                 >
-                  <a href="tel:+41795701816" className="inline-flex items-center">
+                  <a href="tel:+41796055888" className="inline-flex items-center">
                     <Phone className="mr-2 h-4 w-4" />
                     Termin vereinbaren
                   </a>
@@ -239,10 +239,10 @@ const Index = () => {
                     <div>
                       <p className="font-medium text-foreground">Telefon</p>
                       <a 
-                        href="tel:+41795701816" 
+                        href="tel:+41796055888" 
                         className="text-muted-foreground hover:text-primary transition-colors text-lg font-medium"
                       >
-                        +41 79 570 18 16
+                        +41 79 605 58 88
                       </a>
                       <p className="text-sm text-muted-foreground">Mo-Fr: 9:00-18:00 Uhr</p>
                     </div>
@@ -290,7 +290,7 @@ const Index = () => {
                       <p className="text-sm text-muted-foreground">Kostenlos & unverbindlich</p>
                     </div>
                     <Button className="w-full shadow-soft h-12" size="lg" asChild>
-                      <a href="tel:+41795701816">
+                      <a href="tel:+41796055888">
                         <Phone className="mr-2 h-4 w-4" />
                         Jetzt Termin vereinbaren
                       </a>
