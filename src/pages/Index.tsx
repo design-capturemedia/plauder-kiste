@@ -54,7 +54,7 @@ const Index = () => {
                 >
                   <a href="tel:+41796055888" className="inline-flex items-center">
                     <Phone className="mr-2 h-4 w-4" />
-                    Termin vereinbaren
+                    Kontaktformular
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" className="h-12 px-6" asChild>
