@@ -292,7 +292,7 @@ const Index = () => {
                     <Button className="w-full shadow-soft h-12" size="lg" asChild>
                       <a href="tel:+41796055888">
                         <Phone className="mr-2 h-4 w-4" />
-                        Jetzt Termin vereinbaren
+                        Kontaktformular
                       </a>
                     </Button>
                   </div>
