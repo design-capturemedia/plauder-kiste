@@ -9,13 +9,13 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 180 20% 99%;
-    --foreground: 180 10% 15%;
+    --foreground: 28 15% 35%; /* Gray-brown tone */
 
     --card: 180 30% 98%;
-    --card-foreground: 180 10% 15%;
+    --card-foreground: 28 15% 35%; /* Gray-brown tone */
 
     --popover: 180 30% 98%;
-    --popover-foreground: 180 10% 15%;
+    --popover-foreground: 28 15% 35%; /* Gray-brown tone */
 
     --primary: 175 60% 45%;
     --primary-foreground: 0 0% 100%;
@@ -24,7 +24,7 @@ All colors MUST be HSL.
     --secondary-foreground: 175 60% 20%;
 
     --muted: 180 15% 94%;
-    --muted-foreground: 180 10% 45%;
+    --muted-foreground: 28 12% 55%; /* Lighter gray-brown */
 
     --accent: 25 80% 70%;
     --accent-foreground: 25 30% 15%;

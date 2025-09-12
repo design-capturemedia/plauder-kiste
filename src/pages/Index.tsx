@@ -37,12 +37,12 @@ const Index = () => {
             <div className="space-y-6 sm:space-y-8 text-center lg:text-left">
               <div className="space-y-4">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-foreground leading-tight">
-                  Ihr Weg zu mehr
+                  Dein Weg zu mehr
                   <span className="text-primary block">Lebensqualität</span>
                 </h1>
                 <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                   Professionelle Hypnosetherapie und Paarcoaching in vertrauensvoller Atmosphäre. 
-                  Gemeinsam finden wir Lösungen für Ihre persönlichen Herausforderungen.
+                  Gemeinsam finden wir Lösungen für deine persönlichen Herausforderungen.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -87,7 +87,7 @@ const Index = () => {
               Meine Leistungen
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-              Individuelle Begleitung auf Ihrem Weg zu persönlichem Wachstum und erfüllten Beziehungen
+              Individuelle Begleitung auf deinem Weg zu persönlichem Wachstum und erfüllten Beziehungen
             </p>
           </div>
           
@@ -101,7 +101,7 @@ const Index = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <CardDescription className="text-center text-muted-foreground">
-                  Lösen Sie unbewusste Blockaden und erreichen Sie Ihre Ziele durch professionelle Hypnosetherapie.
+                  Löse unbewusste Blockaden und erreiche deine Ziele durch professionelle Hypnosetherapie.
                 </CardDescription>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Stressabbau und Entspannung</li>
@@ -122,7 +122,7 @@ const Index = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <CardDescription className="text-center text-muted-foreground">
-                  Stärken Sie Ihre Partnerschaft und finden Sie gemeinsam zu mehr Verständnis und Nähe.
+                  Stärke deine Partnerschaft und finde gemeinsam zu mehr Verständnis und Nähe.
                 </CardDescription>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Kommunikation verbessern</li>
@@ -159,13 +159,13 @@ const Index = () => {
                   <CardContent className="space-y-4">
                     <p className="text-muted-foreground leading-relaxed">
                       Jeder Mensch trägt die Ressourcen für positive Veränderungen bereits in sich. 
-                      Als Ihre Hypnosetherapeutin und Paarcoach begleite ich Sie dabei, diese Potentiale 
+                      Als deine Hypnosetherapeutin und Paarcoach begleite ich dich dabei, diese Potentiale 
                       zu entdecken und zu entfalten.
                     </p>
                     <p className="text-muted-foreground leading-relaxed">
-                      In meiner Praxis schaffe ich einen sicheren Raum, in dem Sie sich öffnen und 
-                      wachsen können. Durch einfühlsame Begleitung und bewährte Methoden unterstütze 
-                      ich Sie auf Ihrem Weg zu mehr Wohlbefinden und erfüllten Beziehungen.
+                      In meiner Praxis schaffe ich einen sicheren Raum, in dem du dich öffnen und 
+                      wachsen kannst. Durch einfühlsame Begleitung und bewährte Methoden unterstütze 
+                      ich dich auf deinem Weg zu mehr Wohlbefinden und erfüllten Beziehungen.
                     </p>
                   </CardContent>
                 </Card>
@@ -194,7 +194,7 @@ const Index = () => {
                   <CardContent>
                     <p className="text-sm text-muted-foreground">
                       Vertraulich, respektvoll und lösungsorientiert. 
-                      Jede Sitzung wird individuell auf Ihre Bedürfnisse abgestimmt.
+                      Jede Sitzung wird individuell auf deine Bedürfnisse abgestimmt.
                     </p>
                   </CardContent>
                 </Card>
@@ -270,8 +270,8 @@ const Index = () => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground">
-                    Gerne biete ich Ihnen ein unverbindliches Erstgespräch an, in dem wir 
-                    Ihre Anliegen besprechen und schauen, wie ich Sie bestmöglich unterstützen kann.
+                    Gerne biete ich dir ein unverbindliches Erstgespräch an, in dem wir 
+                    deine Anliegen besprechen und schauen, wie ich dich bestmöglich unterstützen kann.
                   </p>
                   <div className="space-y-3">
                     <div className="p-4 bg-therapy-neutral/30 rounded-lg">
