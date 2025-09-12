@@ -286,7 +286,7 @@ const Index = () => {
                   </p>
                   <div className="space-y-3">
                     <div className="p-4 bg-therapy-neutral/30 rounded-lg">
-                      <p className="text-sm font-medium text-foreground">Erstberatung (30 Min.)</p>
+                      <p className="text-sm font-medium text-foreground">Telefonische Erstberatung (ca. 20 Minuten)</p>
                       <p className="text-sm text-muted-foreground">Kostenlos & unverbindlich</p>
                     </div>
                     <Button className="w-full shadow-soft h-12" size="lg" asChild>
