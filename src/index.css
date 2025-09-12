@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 180 30% 98%;
     --popover-foreground: 220 8% 20%; /* Anthracite */
 
-    --primary: 175 60% 45%;
+    --primary: 155 35% 50%; /* Softer sage green */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 175 30% 88%;
@@ -34,7 +34,7 @@ All colors MUST be HSL.
 
     --border: 180 20% 88%;
     --input: 180 20% 88%;
-    --ring: 175 60% 45%;
+    --ring: 155 35% 50%; /* Match primary */
 
     /* Therapeutic color palette */
     --therapy-sage: 140 25% 65%;
@@ -43,12 +43,12 @@ All colors MUST be HSL.
     --therapy-neutral: 180 8% 85%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(175 60% 45%), hsl(195 65% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(155 35% 50%), hsl(160 30% 55%));
     --gradient-soft: linear-gradient(180deg, hsl(180 30% 98%), hsl(175 30% 96%));
     --gradient-accent: linear-gradient(45deg, hsl(25 80% 70%), hsl(35 75% 65%));
     
     /* Shadows */
-    --shadow-soft: 0 4px 20px -8px hsl(175 60% 45% / 0.15);
+    --shadow-soft: 0 4px 20px -8px hsl(155 35% 50% / 0.15);
     --shadow-card: 0 8px 25px -8px hsl(175 30% 40% / 0.1);
     
     /* Animations */
