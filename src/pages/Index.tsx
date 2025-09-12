@@ -233,10 +233,7 @@ const Index = () => {
             
             <div className="grid gap-6 md:grid-cols-2 md:gap-8">
               <Card className="shadow-card border-0 bg-card">
-                <CardHeader>
-                  <CardTitle className="text-lg sm:text-xl font-display">Praxis Informationen</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-6">
+                <CardContent className="space-y-6 pt-6">
                   <div className="flex items-start gap-4">
                     <Phone className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                     <div>
