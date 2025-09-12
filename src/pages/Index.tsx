@@ -145,14 +145,6 @@ const Index = () => {
               <h2 className="text-3xl font-display font-bold text-foreground mb-4">
                 Über mich
               </h2>
-              <div className="max-w-2xl mx-auto">
-                <h3 className="text-xl font-display font-semibold text-primary mb-3">
-                  Meine Philosophie
-                </h3>
-                <p className="text-muted-foreground">
-                  In uns steckt ein riesiges Potenzial an Ressourcen. Ich arbeite lösungsorientiert und stehe für einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum.
-                </p>
-              </div>
             </div>
             
             <div className="space-y-8">
@@ -168,7 +160,13 @@ const Index = () => {
                     2016 hat ein einschneidendes Erlebnis dazu geführt, dass ich mein Leben neu gestalten und meiner Passion als Lebenscoach endlich nachgehen konnte. Meine reiche Lebenserfahrung und mein Talent auf andere Menschen einzugehen kann ich als Hypnose- und Paar-Therapeutin einsetzen und vielen Menschen damit helfen.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Ich bin selbst tief überzeugt von der Wirkung der therapeutischen Hypnose. Als Klientin durfte ich schon viele Hypnosesitzungen erfahren. Meine Philosophie: In uns steckt ein riesiges Potenzial an Ressourcen. Ich arbeite lösungsorientiert. Wir erarbeiten zusammen einen für dich gehbaren Weg zu einem ausgeglichenen und besseren Leben. Ich stehe für einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum.
+                    Ich bin selbst tief überzeugt von der Wirkung der therapeutischen Hypnose. Als Klientin durfte ich schon viele Hypnosesitzungen erfahren.
+                  </p>
+                  <h3 className="text-lg font-display font-semibold text-primary mt-6 mb-3">
+                    Meine Philosophie
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    In uns steckt ein riesiges Potenzial an Ressourcen. Ich arbeite lösungsorientiert. Wir erarbeiten zusammen einen für dich gehbaren Weg zu einem ausgeglichenen und besseren Leben. Ich stehe für einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum.
                   </p>
                 </CardContent>
               </Card>
