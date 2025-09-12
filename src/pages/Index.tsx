@@ -104,11 +104,11 @@ const Index = () => {
                   Löse unbewusste Blockaden und erreiche deine Ziele durch professionelle Hypnosetherapie.
                 </CardDescription>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Stressabbau und Entspannung</li>
+                  <li>• Stressabbau und Burnoutprävention</li>
                   <li>• Ängste und Phobien überwinden</li>
-                  <li>• Gewichtsreduktion und gesunde Gewohnheiten</li>
-                  <li>• Raucherentwöhnung</li>
-                  <li>• Selbstvertrauen stärken</li>
+                  <li>• Selbstvertrauen und Selbstwertgefühl stärken</li>
+                  <li>• Umgang mit Psychosomatischen Krankheiten lernen</li>
+                  <li>• Suchtverhalten verstehen und überwinden</li>
                 </ul>
               </CardContent>
             </Card>
