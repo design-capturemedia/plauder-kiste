@@ -147,22 +147,40 @@ const Index = () => {
               </h2>
             </div>
             
-            <Card className="shadow-card border-0 bg-card">
-              <CardContent className="space-y-6 p-8">
-                <p className="text-muted-foreground leading-relaxed">
-                  Seit den späten achtziger Jahren habe ich in den Medien, in der Kommunikation, selbständig in der Modebranche und im höheren Management diverser Firmen und Branchen gearbeitet.
-                </p>
-                <p className="text-muted-foreground leading-relaxed">
-                  Neben meinen beruflichen Erfolgen war die Persönlichkeitsentwicklung immer ein zentrales Thema, zu welchem ich viele Seminare besucht und mich stetig weitergebildet habe. Selbstreflexion, Meditation und Selbsthypnose gehören zu meinem täglichen Leben.
-                </p>
-                <p className="text-muted-foreground leading-relaxed">
-                  2016 hat ein einschneidendes Erlebnis dazu geführt, dass ich mein Leben neu gestalten und meiner Passion als Lebenscoach endlich nachgehen konnte. Meine reiche Lebenserfahrung und mein Talent auf andere Menschen einzugehen kann ich als Hypnose- und Paar-Therapeutin einsetzen und vielen Menschen damit helfen.
-                </p>
-                <p className="text-muted-foreground leading-relaxed">
-                  Ich bin selbst tief überzeugt von der Wirkung der therapeutischen Hypnose. Als Klientin durfte ich schon viele Hypnosesitzungen erfahren. Meine Philosophie: In uns steckt ein riesiges Potenzial an Ressourcen. Ich arbeite lösungsorientiert. Wir erarbeiten zusammen einen für dich gehbaren Weg zu einem ausgeglichenen und besseren Leben. Ich stehe für einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum.
-                </p>
-              </CardContent>
-            </Card>
+            <div className="space-y-8">
+              <Card className="shadow-card border-0 bg-card">
+                <CardContent className="space-y-6 p-8">
+                  <p className="text-muted-foreground leading-relaxed">
+                    Seit den späten achtziger Jahren habe ich in den Medien, in der Kommunikation, selbständig in der Modebranche und im höheren Management diverser Firmen und Branchen gearbeitet.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Neben meinen beruflichen Erfolgen war die Persönlichkeitsentwicklung immer ein zentrales Thema, zu welchem ich viele Seminare besucht und mich stetig weitergebildet habe. Selbstreflexion, Meditation und Selbsthypnose gehören zu meinem täglichen Leben.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    2016 hat ein einschneidendes Erlebnis dazu geführt, dass ich mein Leben neu gestalten und meiner Passion als Lebenscoach endlich nachgehen konnte. Meine reiche Lebenserfahrung und mein Talent auf andere Menschen einzugehen kann ich als Hypnose- und Paar-Therapeutin einsetzen und vielen Menschen damit helfen.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Ich bin selbst tief überzeugt von der Wirkung der therapeutischen Hypnose. Als Klientin durfte ich schon viele Hypnosesitzungen erfahren. Meine Philosophie: In uns steckt ein riesiges Potenzial an Ressourcen. Ich arbeite lösungsorientiert. Wir erarbeiten zusammen einen für dich gehbaren Weg zu einem ausgeglichenen und besseren Leben. Ich stehe für einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum.
+                  </p>
+                </CardContent>
+              </Card>
+              
+              <Card className="shadow-card border-0 bg-card">
+                <CardHeader>
+                  <CardTitle className="text-xl font-display">Qualifikationen</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3">
+                  <div className="space-y-2 text-muted-foreground">
+                    <p>• Diplom OMNI Hypnosetherapie</p>
+                    <p>• Diplom HypnoKids Hypnose für Kinder und Jugendliche</p>
+                    <p>• Mitglied im Schweizerischen Berufsverband für Hypnosetherapie</p>
+                    <p>• NGH National Guild of Hypnotists</p>
+                    <p>• Coaching Practitioner</p>
+                    <p>• Beziehungs- und Paarcoach</p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
