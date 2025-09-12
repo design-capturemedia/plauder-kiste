@@ -124,13 +124,19 @@ const Index = () => {
                 <CardDescription className="text-center text-muted-foreground">
                   Stärke deine Partnerschaft und finde gemeinsam zu mehr Verständnis und Nähe.
                 </CardDescription>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Kommunikation verbessern</li>
-                  <li>• Konflikte konstruktiv lösen</li>
-                  <li>• Vertrauen wieder aufbauen</li>
-                  <li>• Intimität und Nähe stärken</li>
-                  <li>• Gemeinsame Zukunft gestalten</li>
-                </ul>
+                
+                <div className="space-y-3">
+                  <h4 className="text-sm font-semibold text-foreground text-center">
+                    Findet zurück in eine erfüllende Beziehung
+                  </h4>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li>• Ihr dreht Euch als Paar im Kreis, Streit, Unverständnis, Frust</li>
+                    <li>• Alte Verhaltensmuster entdecken und auflösen</li>
+                    <li>• Den eigenen Boykott in einer Beziehung erkennen</li>
+                    <li>• Was hindert Dich daran den richtigen Partner zu finden</li>
+                    <li>• Gemeinsame Zukunft gestalten</li>
+                  </ul>
+                </div>
               </CardContent>
             </Card>
           </div>
