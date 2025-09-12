@@ -264,10 +264,10 @@ const Index = () => {
                   <div className="flex items-start gap-4">
                     <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                     <div>
-                      <p className="font-medium text-foreground">Praxisadresse</p>
+                      <p className="font-medium text-foreground">Adresse</p>
                       <p className="text-muted-foreground">
-                        Burgstrasse 43<br />
-                        9000 St. Gallen<br />
+                        Blattenstrasse 12<br />
+                        8603 Schwerzenbach<br />
                         Schweiz
                       </p>
                     </div>
