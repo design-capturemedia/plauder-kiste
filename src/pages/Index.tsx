@@ -11,7 +11,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-sm z-50 border-b border-border">
         <div className="container mx-auto px-4 sm:px-6 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-lg sm:text-xl font-display font-semibold text-foreground">
+            <h1 className="text-lg sm:text-xl font-display font-medium text-foreground">
               Hypnosetherapie & Coaching
             </h1>
             <div className="hidden md:flex space-x-6">
@@ -36,7 +36,7 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="space-y-6 sm:space-y-8 text-center lg:text-left">
               <div className="space-y-4">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-foreground leading-tight">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl font-display font-medium text-foreground leading-tight">
                   Dein Weg zu mehr
                   <span className="text-primary block">Lebensqualität</span>
                 </h1>
@@ -83,7 +83,7 @@ const Index = () => {
       <section id="services" className="py-12 sm:py-16 bg-background">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-3xl font-display font-bold text-foreground mb-4">
+            <h2 className="text-xl sm:text-2xl font-display font-medium text-foreground mb-4">
               Meine Leistungen
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -97,7 +97,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-gradient-hero rounded-full flex items-center justify-center mx-auto mb-4">
                   <Brain className="h-8 w-8 text-white" />
                 </div>
-                <CardTitle className="text-xl font-display">Hypnosetherapie</CardTitle>
+                <CardTitle className="text-lg font-display font-medium">Hypnosetherapie</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <CardDescription className="text-center text-muted-foreground">
@@ -118,7 +118,7 @@ const Index = () => {
                 <div className="w-16 h-16 bg-gradient-accent rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="h-8 w-8 text-white" />
                 </div>
-                <CardTitle className="text-xl font-display">Paar- & Beziehungscoaching</CardTitle>
+                <CardTitle className="text-lg font-display font-medium">Paar- & Beziehungscoaching</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <CardDescription className="text-center text-muted-foreground">
@@ -139,7 +139,7 @@ const Index = () => {
           <div className="max-w-2xl mx-auto mt-12">
             <Card className="shadow-card border-0 bg-card">
               <CardHeader className="text-center">
-                <CardTitle className="text-xl font-display">Preise</CardTitle>
+                <CardTitle className="text-lg font-display font-medium">Preise</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="grid gap-4 md:grid-cols-2">
@@ -169,7 +169,7 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-display font-bold text-foreground mb-4">
+              <h2 className="text-xl sm:text-2xl font-display font-medium text-foreground mb-4">
                 Über mich
               </h2>
             </div>
@@ -189,7 +189,7 @@ const Index = () => {
                   <p className="text-muted-foreground leading-relaxed">
                     Ich bin selbst tief überzeugt von der Wirkung der therapeutischen Hypnose. Als Klientin durfte ich schon viele Hypnosesitzungen erfahren.
                   </p>
-                  <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
+                  <h3 className="text-base font-display font-medium text-foreground mt-6 mb-3">
                     Meine Philosophie
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
@@ -200,7 +200,7 @@ const Index = () => {
               
               <Card className="shadow-card border-0 bg-card">
                 <CardHeader>
-                  <CardTitle className="text-xl font-display">Qualifikationen</CardTitle>
+                  <CardTitle className="text-lg font-display font-medium">Qualifikationen</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="space-y-2 text-muted-foreground">
@@ -223,7 +223,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
-              <h2 className="text-2xl sm:text-3xl font-display font-bold text-foreground mb-4">
+              <h2 className="text-xl sm:text-2xl font-display font-medium text-foreground mb-4">
                 Kontakt & Terminvereinbarung
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground">
@@ -277,7 +277,7 @@ const Index = () => {
               
               <Card className="shadow-card border-0 bg-card">
                 <CardHeader>
-                  <CardTitle className="text-lg sm:text-xl font-display">Erstberatung</CardTitle>
+                  <CardTitle className="text-base sm:text-lg font-display font-medium">Erstberatung</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground">
