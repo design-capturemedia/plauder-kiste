@@ -134,6 +134,33 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
+          
+          {/* Pricing Information */}
+          <div className="max-w-2xl mx-auto mt-12">
+            <Card className="shadow-card border-0 bg-card">
+              <CardHeader className="text-center">
+                <CardTitle className="text-xl font-display">Preise</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div className="text-center p-4 bg-gradient-soft rounded-lg">
+                    <h4 className="font-semibold text-foreground mb-2">Einzeltherapie</h4>
+                    <p className="text-2xl font-display font-bold text-primary">CHF 140.-</p>
+                    <p className="text-sm text-muted-foreground">pro Stunde</p>
+                  </div>
+                  <div className="text-center p-4 bg-gradient-soft rounded-lg">
+                    <h4 className="font-semibold text-foreground mb-2">Paartherapie</h4>
+                    <p className="text-2xl font-display font-bold text-primary">CHF 220.-</p>
+                    <p className="text-sm text-muted-foreground">pro Stunde</p>
+                  </div>
+                </div>
+                <div className="text-center mt-6 space-y-2 text-sm text-muted-foreground">
+                  <p>Eine Erstsitzung in der Hypnosetherapie dauert ca. 2 bis 2.5 Stunden</p>
+                  <p>Ein Paarcoaching dauert ca. 90 Minuten</p>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </section>
 
