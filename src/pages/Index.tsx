@@ -193,7 +193,7 @@ const Index = () => {
                     Meine Philosophie
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    In uns steckt ein riesiges Potenzial an Ressourcen. Ich arbeite lösungsorientiert. Wir erarbeiten zusammen einen für dich gehbaren Weg zu einem ausgeglichenen und besseren Leben. Ich stehe für einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum.
+                    In uns allen steckt ein riesiges Potenzial an Ressourcen. Ich stehe für lösungsorientiertes Arbeiten und Kurzzeit-Therapien. Wir erarbeiten zusammen deinen Weg zu einem ausgeglichenen und besseren Leben. Ich biete dir einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum.
                   </p>
                 </CardContent>
               </Card>
