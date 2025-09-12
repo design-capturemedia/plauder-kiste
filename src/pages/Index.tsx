@@ -162,7 +162,7 @@ const Index = () => {
                   <p className="text-muted-foreground leading-relaxed">
                     Ich bin selbst tief überzeugt von der Wirkung der therapeutischen Hypnose. Als Klientin durfte ich schon viele Hypnosesitzungen erfahren.
                   </p>
-                  <h3 className="text-lg font-display font-semibold text-primary mt-6 mb-3">
+                  <h3 className="text-lg font-display font-semibold text-foreground mt-6 mb-3">
                     Meine Philosophie
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
