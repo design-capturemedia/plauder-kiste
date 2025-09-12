@@ -218,6 +218,78 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-12 sm:py-16 bg-background">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-xl sm:text-2xl font-display font-medium text-foreground mb-4">
+                Das sagen Klient*innen
+              </h2>
+              <p className="text-base sm:text-lg text-muted-foreground">
+                Erfahrungen und Rückmeldungen von Menschen, die ihren Weg gefunden haben
+              </p>
+            </div>
+            
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <Card className="shadow-card border-0 bg-card">
+                <CardContent className="space-y-4 p-6">
+                  <p className="text-muted-foreground leading-relaxed italic">
+                    "Hätte ich diese Therapieform nur schon früher gewählt. Ich bin mir über so vieles klar geworden und spüre endlich mal eine Veränderung. Ich konnte die wichtigsten Stolpersteine erkennen und endlich weg räumen."
+                  </p>
+                  <p className="text-sm font-medium text-foreground">Sarah, 45</p>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-card border-0 bg-card">
+                <CardContent className="space-y-4 p-6">
+                  <p className="text-muted-foreground leading-relaxed italic">
+                    "Meine Mutter war schon bei Michèle und hat total geschwärmt von der Hypnose bei ihr. Darum habe ich mich auch entschieden etwas zu ändern. Man kann wirklich extrem gut reden mit Michèle. Sie weiss einfach immer einen Rat. Ich glaube wirklich, ich war noch nie so ehrlich zu einer Person."
+                  </p>
+                  <p className="text-sm font-medium text-foreground">Jasmine, 33</p>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-card border-0 bg-card">
+                <CardContent className="space-y-4 p-6">
+                  <p className="text-muted-foreground leading-relaxed italic">
+                    "Ich konnte mich auf nichts mehr konzentrieren, die Noten wurden schlechter und ich konnte einfach nicht mehr einschlafen. Michèle hat mir beigebracht, wie ich mir selber helfen kann. Ich bin mega froh und viel weniger gestresst."
+                  </p>
+                  <p className="text-sm font-medium text-foreground">Lea, 14</p>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-card border-0 bg-card">
+                <CardContent className="space-y-4 p-6">
+                  <p className="text-muted-foreground leading-relaxed italic">
+                    "Da lief einiges schief in meinem Leben. Ich wusste nicht mehr was oben und unten ist. Nach der Hypnosetherapie ist mir so viel klar geworden. Ich konnte einfach nicht hinsehen und war wie bewegungsunfähig. Jetzt läuft es viel besser."
+                  </p>
+                  <p className="text-sm font-medium text-foreground">Hakan, 59</p>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-card border-0 bg-card">
+                <CardContent className="space-y-4 p-6">
+                  <p className="text-muted-foreground leading-relaxed italic">
+                    "Michèle hat mich durch meine Trennung von meiner Frau begleitet. In der Hypnose habe ich so deutlich gespürt, wie unglücklich ich war. Ich hatte überhaupt keine Energie mehr. Ich habe mich wieder gefunden und die Lebensenergie auch."
+                  </p>
+                  <p className="text-sm font-medium text-foreground">Rolf, 47</p>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-card border-0 bg-card">
+                <CardContent className="space-y-4 p-6">
+                  <p className="text-muted-foreground leading-relaxed italic">
+                    "Wir wussten nicht, wie weiter. Alles war so belastend, anstrengend, verletztend. Ohne dieses Paarcoaching hätten wir unseren Weg nicht gefunden."
+                  </p>
+                  <p className="text-sm font-medium text-foreground">Simone & Yves</p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="py-12 sm:py-16 bg-background">
         <div className="container mx-auto px-4 sm:px-6">
