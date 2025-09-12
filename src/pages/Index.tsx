@@ -67,8 +67,8 @@ const Index = () => {
             <div className="relative order-first lg:order-last">
               <div className="relative rounded-2xl overflow-hidden shadow-card">
                 <img 
-                  src={heroImage} 
-                  alt="Therapeutische Atmosphäre - Entspannte Praxisräume für Hypnosetherapie und Paarcoaching"
+                  src="/lovable-uploads/2055aba2-395e-4ec2-bb27-5fa4b32e1798.png" 
+                  alt="Professionelle Hypnosetherapeutin und Coach - Vertrauensvolle Beratung für Ihr Wohlbefinden"
                   className="w-full h-[300px] sm:h-[400px] object-cover"
                   loading="lazy"
                 />
