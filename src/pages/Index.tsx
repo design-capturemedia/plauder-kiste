@@ -128,7 +128,7 @@ const Index = () => {
                   <li>• Ihr dreht Euch als Paar im Kreis, Streit, Unverständnis, Frust</li>
                   <li>• Alte Verhaltensmuster entdecken und auflösen</li>
                   <li>• Den eigenen Boykott in einer Beziehung erkennen</li>
-                  <li>• Was hindert Dich daran den richtigen Partner zu finden</li>
+                  <li>• Finde einen respektvollen Umgang mit dir selbst und deiner*m Partner*in</li>
                   <li>• Gemeinsame Zukunft gestalten</li>
                 </ul>
               </CardContent>
