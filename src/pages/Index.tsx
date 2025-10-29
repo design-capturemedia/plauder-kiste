@@ -238,7 +238,7 @@ const Index = () => {
               <Card className="shadow-card border-0 bg-card">
                 <CardContent className="space-y-4 p-6">
                   <p className="text-muted-foreground leading-relaxed italic">
-                    "Hätte ich diese Therapieform nur schon früher gewählt. Ich bin mir über so vieles klar geworden und spüre endlich mal eine Veränderung. Ich konnte die wichtigsten Stolpersteine erkennen und endlich weg räumen."
+                    "Hätte ich diese Therapieform nur schon früher gewählt. Ich bin mir über so vieles klar geworden und spüre endlich mal eine Veränderung. Ich konnte die wichtigsten Stolpersteine erkennen und endlich wegräumen."
                   </p>
                   <p className="text-sm font-medium text-foreground">Sarah, 45</p>
                 </CardContent>
