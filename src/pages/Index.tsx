@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Heart, Brain, Users, Mail, Phone, MapPin } from "lucide-react";
 import heroImage from "@/assets/hero-therapy.jpg";
 import { MobileNavigation } from "@/components/MobileNavigation";
@@ -23,6 +24,9 @@ const Index = () => {
               </a>
               <a href="#reviews" className="text-muted-foreground hover:text-primary transition-colors">
                 Klientenreviews
+              </a>
+              <a href="#faq" className="text-muted-foreground hover:text-primary transition-colors">
+                FAQ
               </a>
               <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">
                 Kontakt
@@ -289,6 +293,107 @@ const Index = () => {
                 </CardContent>
               </Card>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section id="faq" className="py-12 sm:py-16 bg-gradient-soft">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-xl sm:text-2xl font-display font-medium text-foreground mb-4">
+                Häufige Fragen zur Hypnose
+              </h2>
+              <p className="text-base sm:text-lg text-muted-foreground">
+                Alles, was du über Hypnosetherapie wissen solltest
+              </p>
+            </div>
+            
+            <Card className="shadow-card border-0 bg-card">
+              <CardContent className="p-6">
+                <Accordion type="single" collapsible className="w-full">
+                  <AccordionItem value="item-1">
+                    <AccordionTrigger className="text-left font-medium text-foreground">
+                      Was ist Hypnose?
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed">
+                      Ein ganz natürlicher Zustand der körperlichen und mentalen Tiefenentspannung. Deine Aufmerksamkeit richtet sich nach innen und der Zugang zu Deinem Unterbewusstsein und dort verankerten Glaubenssätzen wird möglich. So können ungewollte und behindernde Muster erkannt und effizient aufgelöst werden.
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="item-2">
+                    <AccordionTrigger className="text-left font-medium text-foreground">
+                      Was passiert in der Hypnose-Sitzung?
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed space-y-3">
+                      <p>Nach einem klärenden Vorgespräch, das in einer Erstsitzung etwas länger sein kann, klären wir deine Anliegen und alle offenen Fragen.</p>
+                      <p>Anschliessend bringen dich meine Entspannungstechniken zur Ruhe und ganz nah zu Dir selbst. Wer schon meditiert hat, kennt den wunderbaren Zustand von innerer Ruhe und Klarheit. In diesem Zustand können Glaubenssätze und emotionale Verstrickungen bearbeitet und aufgelöst werden.</p>
+                      <p>Nach der Hypnose fühlst Du Dich leicht und zufrieden. In den kommenden Tagen wirst Du eine Veränderung spüren.</p>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="item-3">
+                    <AccordionTrigger className="text-left font-medium text-foreground">
+                      Schlafe ich in der Hypnose?
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed">
+                      In der Hypnose ist man trotz der Entspannung wach, aufmerksam und fokussiert. Man kann sprechen, alles hören und man kann sich auch bewegen, wenn es nötig sein sollte.
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="item-4">
+                    <AccordionTrigger className="text-left font-medium text-foreground">
+                      Verliere ich in der Hypnose die Kontrolle?
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed">
+                      In keinem Moment. Der Selbstschutz und die Kontrolle über Deine Gedanken sind aktiv. Du könntest den hypnotischen Zustand jederzeit selbst beenden. Ich begleite Dich achtsam durch den Prozess. Die Hypnose ist eine Zusammenarbeit und bringt Dir die Kontrolle über Dein Leben zurück.
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="item-5">
+                    <AccordionTrigger className="text-left font-medium text-foreground">
+                      Kann Hypnose Krankheiten heilen?
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed space-y-3">
+                      <p>Die Hypnose verzeichnet grosse Erfolge in der Behandlung von psychosomatischen Krankheiten.</p>
+                      <p>Wenn der Körper durch traumatische Erlebnisse, lähmende Gedanken, ungesunden Stress oder unverarbeitete Probleme reagiert, sind wir meist so beschäftigt, dass wir die Zeichen nicht erkennen. So können chronische Krankheiten und Schmerzen entstehen - ausgelöst durch die Psyche, also psychosomatisch.</p>
+                      <p>In der Hypnose gehen wir der Ursache auf den Grund. Es werden keine Symptome unterdrückt, sondern wir suchen und finden den Auslöser.</p>
+                      <p>Durch die tiefe Entspannung und das stressfreie Spüren des eigenen Körpers können die Selbstheilungskräfte angekurbelt werden und der Körper kann sich regenerieren. Die Hypnosetherapie kann auch bei anderen Krankheitsbildern eine wertvolle Ergänzung zur Schulmedizin sein. Sie ersetzt bei schweren Erkrankungen keinesfalls einen Arzt oder verschriebene Medikamente.</p>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="item-6">
+                    <AccordionTrigger className="text-left font-medium text-foreground">
+                      Kann jeder hypnotisiert werden?
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed space-y-3">
+                      <p>Grundsätzlich ist jeder Mensch hypnotisierbar - wenn er es will.</p>
+                      <p>Selbstsichere und fantasievolle Menschen haben es vielleicht etwas leichter sich dem angenehmen Zustand der Entspannung und des Loslassens hinzugeben. Die Tiefe der Hypnose ist unterschiedlich und kann von der leichten körperlichen und mentalen Entspannung bis hin zur totalen Tiefenentspannung ohne Schmerzempfinden reichen.</p>
+                      <p>Wer sich dagegen wehrt oder nicht will, kann nicht hypnotisiert werden.</p>
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="item-7">
+                    <AccordionTrigger className="text-left font-medium text-foreground">
+                      Wie viele Sitzungen braucht es, um ein Problem zu lösen?
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed">
+                      Hypnose ist keine Langzeittherapie. Oft reicht eine einzige Sitzung, um ein Problem zu erkennen und zu lösen. Manchmal braucht es eine zweite oder dritte Sitzung, wenn Deine Geschichte etwas komplexer ist.
+                    </AccordionContent>
+                  </AccordionItem>
+
+                  <AccordionItem value="item-8">
+                    <AccordionTrigger className="text-left font-medium text-foreground">
+                      Wird die Hypnosetherapie von der Krankenkasse bezahlt?
+                    </AccordionTrigger>
+                    <AccordionContent className="text-muted-foreground leading-relaxed">
+                      Leider ist diese Therapie noch nicht krankenkassenanerkannt.
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>

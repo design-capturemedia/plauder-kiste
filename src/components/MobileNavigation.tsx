@@ -50,6 +50,18 @@ export const MobileNavigation = ({ onLinkClick }: MobileNavigationProps) => {
               Über mich
             </button>
             <button
+              onClick={() => handleLinkClick('#reviews')}
+              className="text-left py-3 px-2 text-lg text-muted-foreground hover:text-primary transition-colors border-b border-border/50"
+            >
+              Klientenreviews
+            </button>
+            <button
+              onClick={() => handleLinkClick('#faq')}
+              className="text-left py-3 px-2 text-lg text-muted-foreground hover:text-primary transition-colors border-b border-border/50"
+            >
+              FAQ
+            </button>
+            <button
               onClick={() => handleLinkClick('#contact')}
               className="text-left py-3 px-2 text-lg text-muted-foreground hover:text-primary transition-colors border-b border-border/50"
             >
