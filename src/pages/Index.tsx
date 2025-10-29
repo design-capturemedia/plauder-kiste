@@ -212,7 +212,7 @@ const Index = () => {
                     <p>• Mitglied im Schweizerischen Berufsverband für Hypnosetherapie</p>
                     <p>• NGH National Guild of Hypnotists</p>
                     <p>• Coaching Practitioner</p>
-                    <p>• Beziehungs- und Paarcoach</p>
+                    <p>• dipl. Beziehungs- und Paar Coach CIS</p>
                   </div>
                 </CardContent>
               </Card>
