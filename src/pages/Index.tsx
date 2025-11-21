@@ -433,10 +433,10 @@ const Index = () => {
                     <div>
                       <p className="font-medium text-foreground">E-Mail</p>
                       <a 
-                        href="mailto:info@hypnose-therapie-raue.ch"
+                        href="mailto:info@hypnose-und-paartherapie.ch"
                         className="text-muted-foreground hover:text-primary transition-colors text-lg font-medium"
                       >
-                        info@hypnose-therapie-raue.ch
+                        info@hypnose-und-paartherapie.ch
                       </a>
                     </div>
                   </div>
