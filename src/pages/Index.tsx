@@ -190,16 +190,13 @@ const Index = () => {
               <h2 className="text-xl sm:text-2xl font-display font-medium text-foreground mb-4">
                 Über mich
               </h2>
-              <p className="text-lg font-display text-foreground">
-                Mein Name ist Michèle Raue.
-              </p>
             </div>
             
             <div className="space-y-8">
               <Card className="shadow-card border-0 bg-card">
                 <CardContent className="space-y-6 p-8">
                   <p className="text-muted-foreground leading-relaxed">
-                    Seit den späten achtziger Jahren habe ich in den Medien, in der Kommunikation, selbständig in der Modebranche und im höheren Management diverser Firmen und Branchen gearbeitet.
+                    Mein Name ist Michèle Raue. Seit den späten achtziger Jahren habe ich in den Medien, in der Kommunikation, selbständig in der Modebranche und im höheren Management diverser Firmen und Branchen gearbeitet.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
                     Neben meinen beruflichen Erfolgen war die Persönlichkeitsentwicklung immer ein zentrales Thema, zu welchem ich viele Seminare besucht und mich stetig weitergebildet habe. Selbstreflexion, Meditation und Selbsthypnose gehören zu meinem täglichen Leben.
