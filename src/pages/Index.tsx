@@ -60,7 +60,7 @@ const Index = () => {
                   className="shadow-soft h-12 px-6"
                   asChild
                 >
-                  <a href="tel:+41796055888" className="inline-flex items-center">
+                  <a href="#contact-form" className="inline-flex items-center">
                     <Phone className="mr-2 h-4 w-4" />
                     Kontaktformular
                   </a>
@@ -91,7 +91,7 @@ const Index = () => {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-12 sm:py-16 bg-gradient-soft">
+      <section id="contact-form" className="py-12 sm:py-16 bg-gradient-soft">
         <div className="container mx-auto px-4 sm:px-6">
           <ContactForm />
         </div>
