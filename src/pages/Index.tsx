@@ -481,7 +481,7 @@ const Index = () => {
                       <p className="text-sm text-muted-foreground">Kostenlos & unverbindlich</p>
                     </div>
                     <Button className="w-full shadow-soft h-12" size="lg" asChild>
-                      <a href="tel:+41796055888">
+                      <a href="#contact-form">
                         <Phone className="mr-2 h-4 w-4" />
                         Kontaktformular
                       </a>
