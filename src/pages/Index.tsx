@@ -82,6 +82,9 @@ const Index = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent"></div>
               </div>
+              <p className="text-center mt-3 text-sm text-muted-foreground italic">
+                Michèle Raue - Hypnose- und Paartherapeutin
+              </p>
             </div>
           </div>
         </div>
