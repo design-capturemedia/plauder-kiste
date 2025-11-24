@@ -30,7 +30,7 @@ const Impressum = () => {
             <h2 className="text-2xl font-semibold mb-4">Kontakt</h2>
             <p className="text-muted-foreground">
               Telefon: +41 79 605 58 88<br />
-              E-Mail: info@hypnose-raue.ch
+              E-Mail: info@hypnose-und-paartherapie.ch
             </p>
           </section>
           
