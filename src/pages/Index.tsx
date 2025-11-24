@@ -5,6 +5,7 @@ import { Heart, Brain, Users, Mail, Phone, MapPin } from "lucide-react";
 import heroImage from "@/assets/hero-therapy.jpg";
 import { MobileNavigation } from "@/components/MobileNavigation";
 import { ContactForm } from "@/components/ContactForm";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -503,8 +504,8 @@ const Index = () => {
               Professionelle Begleitung für mehr Lebensqualität und erfüllte Beziehungen
             </p>
             <div className="flex justify-center space-x-6 text-sm opacity-75">
-              <a href="#" className="hover:opacity-100 transition-opacity">Impressum</a>
-              <a href="#" className="hover:opacity-100 transition-opacity">Datenschutz</a>
+              <Link to="/impressum" className="hover:opacity-100 transition-opacity">Impressum</Link>
+              <Link to="/datenschutz" className="hover:opacity-100 transition-opacity">Datenschutz</Link>
             </div>
           </div>
         </div>
