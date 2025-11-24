@@ -190,6 +190,9 @@ const Index = () => {
               <h2 className="text-xl sm:text-2xl font-display font-medium text-foreground mb-4">
                 Über mich
               </h2>
+              <p className="text-lg font-display text-foreground">
+                Mein Name ist Michèle Raue.
+              </p>
             </div>
             
             <div className="space-y-8">
