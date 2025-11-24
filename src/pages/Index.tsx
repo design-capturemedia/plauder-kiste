@@ -202,7 +202,7 @@ const Index = () => {
                     Neben meinen beruflichen Erfolgen war die Persönlichkeitsentwicklung immer ein zentrales Thema, zu welchem ich viele Seminare besucht und mich stetig weitergebildet habe. Selbstreflexion, Meditation und Selbsthypnose gehören zu meinem täglichen Leben.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    2016 hat ein einschneidendes Erlebnis dazu geführt, dass ich mein Leben neu gestalten und meiner Passion als Lebenscoach endlich nachgehen konnte. Meine reiche Lebenserfahrung und mein Talent auf andere Menschen einzugehen kann ich als Hypnose- und Paar-Therapeutin einsetzen und vielen Menschen damit helfen.
+                    2016 hat ein einschneidendes Erlebnis dazu geführt, dass ich mein Leben neu gestalten und meiner Passion als Lebenscoach endlich nachgehen konnte. Meine reiche Lebenserfahrung und mein Talent auf andere Menschen einzugehen kann ich seit 2018 als Hypnose- und Paar-Therapeutin einsetzen und vielen Menschen damit helfen.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
                     Ich bin selbst tief überzeugt von der Wirkung der therapeutischen Hypnose. Als Klientin durfte ich schon viele Hypnosesitzungen erfahren.
