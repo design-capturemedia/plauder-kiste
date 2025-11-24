@@ -4,6 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Heart, Brain, Users, Mail, Phone, MapPin } from "lucide-react";
 import heroImage from "@/assets/hero-therapy.jpg";
 import { MobileNavigation } from "@/components/MobileNavigation";
+import { ContactForm } from "@/components/ContactForm";
 
 const Index = () => {
   return (
@@ -83,6 +84,13 @@ const Index = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Contact Form Section */}
+      <section className="py-12 sm:py-16 bg-gradient-soft">
+        <div className="container mx-auto px-4 sm:px-6">
+          <ContactForm />
         </div>
       </section>
 
