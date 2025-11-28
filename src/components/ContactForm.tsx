@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -9,13 +10,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { toast } from "sonner";
 import { Mail } from "lucide-react";
-
-// Web3Forms Configuration
-// To set up: 
-// 1. Sign up at https://web3forms.com (free - 250 submissions/month)
-// 2. Get your Access Key from the dashboard
-// 3. Update the value below
-const WEB3FORMS_ACCESS_KEY = "YOUR_ACCESS_KEY_HERE"; // Get from https://web3forms.com
 
 const contactFormSchema = z.object({
   name: z.string()
@@ -54,34 +48,25 @@ export const ContactForm = () => {
   const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
     try {
-      // Send email via Web3Forms
-      const formData = {
-        access_key: WEB3FORMS_ACCESS_KEY,
-        name: data.name,
-        email: data.email,
-        phone: data.phone,
-        message: data.message,
-        subject: "Kontaktformular",
-        from_name: "Hypnose und Paartherapie Website",
-        to_email: "carlo.faessler@cptr.com", // Test email address
-      };
-
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
+      // Send email via backend edge function
+      const { data: result, error } = await supabase.functions.invoke('send-contact-email', {
+        body: {
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+          message: data.message,
         },
-        body: JSON.stringify(formData),
       });
 
-      const result = await response.json();
+      if (error) {
+        throw error;
+      }
 
-      if (result.success) {
+      if (result?.success) {
         toast.success("Vielen Dank für Ihre Nachricht! Wir melden uns bald bei Ihnen.");
         form.reset();
       } else {
-        throw new Error(result.message || "Failed to send email");
+        throw new Error(result?.error || "Failed to send email");
       }
     } catch (error: any) {
       console.error("Email sending error:", error);
