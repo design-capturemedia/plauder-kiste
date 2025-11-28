@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
+import emailjs from "@emailjs/browser";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -9,6 +10,17 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { toast } from "sonner";
 import { Mail } from "lucide-react";
+
+// EmailJS Configuration
+// To set up: 
+// 1. Create account at https://www.emailjs.com/
+// 2. Add email service (Gmail, Outlook, etc.)
+// 3. Create email template with these variables: {{from_name}}, {{from_email}}, {{from_phone}}, {{message}}
+// 4. Get your Service ID, Template ID, and Public Key from EmailJS dashboard
+// 5. Update the values below
+const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID"; // Get from EmailJS dashboard
+const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID"; // Get from EmailJS dashboard
+const EMAILJS_PUBLIC_KEY = "YOUR_PUBLIC_KEY"; // Get from EmailJS dashboard
 
 const contactFormSchema = z.object({
   name: z.string()
@@ -47,13 +59,28 @@ export const ContactForm = () => {
   const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
     try {
-      // Simulate form submission
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      // Initialize EmailJS (only needed once, but safe to call multiple times)
+      emailjs.init(EMAILJS_PUBLIC_KEY);
+
+      // Send email via EmailJS
+      const templateParams = {
+        from_name: data.name,
+        from_email: data.email,
+        from_phone: data.phone,
+        message: data.message,
+        to_email: "carlo.faessler@cptr.com", // Test email address
+      };
+
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams
+      );
       
-      console.log("Form submitted:", data);
       toast.success("Vielen Dank für Ihre Nachricht! Wir melden uns bald bei Ihnen.");
       form.reset();
-    } catch (error) {
+    } catch (error: any) {
+      console.error("Email sending error:", error);
       toast.error("Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.");
     } finally {
       setIsSubmitting(false);
