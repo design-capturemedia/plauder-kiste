@@ -105,7 +105,7 @@ const Index = () => {
               Meine Leistungen
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-              Individuelle Begleitung auf deinem Weg zu persönlichem Wachstum und erfüllten Beziehungen
+              Individuelle Begleitung auf Deinem Weg zu persönlichem Wachstum und erfüllten Beziehungen
             </p>
           </div>
           
@@ -119,7 +119,7 @@ const Index = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <CardDescription className="text-center text-muted-foreground">
-                  Löse unbewusste Blockaden und erreiche deine Ziele durch professionelle Hypnosetherapie.
+                  Löse unbewusste Blockaden und erreiche Deine Ziele durch professionelle Hypnosetherapie.
                 </CardDescription>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Stressabbau und Burnoutprävention</li>
@@ -140,13 +140,13 @@ const Index = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <CardDescription className="text-center text-muted-foreground">
-                  Stärke deine Partnerschaft und findet gemeinsam zu mehr Verständnis und Nähe.
+                  Stärke Deine Partnerschaft und findet gemeinsam zu mehr Verständnis und Nähe.
                 </CardDescription>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Ihr dreht Euch als Paar im Kreis, Streit, Unverständnis, Frust</li>
                   <li>• Alte Verhaltensmuster entdecken und auflösen</li>
                   <li>• Den eigenen Boykott in einer Beziehung erkennen</li>
-                  <li>• Finde einen respektvollen Umgang mit dir selbst und deiner*m Partner*in</li>
+                  <li>• Finde einen respektvollen Umgang mit Dir selbst und Deiner*m Partner*in</li>
                   <li>• Gemeinsame Zukunft gestalten</li>
                 </ul>
               </CardContent>
@@ -211,7 +211,7 @@ const Index = () => {
                     Meine Philosophie
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    In uns allen steckt ein riesiges Potenzial an Ressourcen. Ich stehe für lösungsorientiertes Arbeiten und Kurzzeit-Therapien. Wir erarbeiten zusammen deinen Weg zu einem ausgeglichenen und besseren Leben. Ich biete dir einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum, in dem du dich entfalten kannst.
+                    In uns allen steckt ein riesiges Potenzial an Ressourcen. Ich stehe für lösungsorientiertes Arbeiten und Kurzzeit-Therapien. Wir erarbeiten zusammen Deinen Weg zu einem ausgeglichenen und besseren Leben. Ich biete Dir einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum, in dem Du Dich entfalten kannst.
                   </p>
                 </CardContent>
               </Card>
@@ -317,7 +317,7 @@ const Index = () => {
                 Häufige Fragen zur Hypnose
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground">
-                Alles, was du über Hypnosetherapie wissen solltest
+                Alles, was Du über Hypnosetherapie wissen solltest
               </p>
             </div>
             
@@ -338,8 +338,8 @@ const Index = () => {
                       Was passiert in der Hypnose-Sitzung?
                     </AccordionTrigger>
                     <AccordionContent className="text-muted-foreground leading-relaxed space-y-3">
-                      <p>Nach einem klärenden Vorgespräch, das in einer Erstsitzung etwas länger sein kann, klären wir deine Anliegen und alle offenen Fragen.</p>
-                      <p>Anschliessend bringen dich meine Entspannungstechniken zur Ruhe und ganz nah zu Dir selbst. Wer schon meditiert hat, kennt den wunderbaren Zustand von innerer Ruhe und Klarheit. In diesem Zustand können Glaubenssätze und emotionale Verstrickungen bearbeitet und aufgelöst werden.</p>
+                      <p>Nach einem klärenden Vorgespräch, das in einer Erstsitzung etwas länger sein kann, klären wir Deine Anliegen und alle offenen Fragen.</p>
+                      <p>Anschliessend bringen Dich meine Entspannungstechniken zur Ruhe und ganz nah zu Dir selbst. Wer schon meditiert hat, kennt den wunderbaren Zustand von innerer Ruhe und Klarheit. In diesem Zustand können Glaubenssätze und emotionale Verstrickungen bearbeitet und aufgelöst werden.</p>
                       <p>Nach der Hypnose fühlst Du Dich leicht und zufrieden. In den kommenden Tagen wirst Du eine Veränderung spüren.</p>
                     </AccordionContent>
                   </AccordionItem>
