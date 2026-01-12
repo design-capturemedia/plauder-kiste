@@ -472,8 +472,8 @@ const Index = () => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground">
-                    Gerne biete ich dir ein unverbindliches Erstgespräch an, in dem wir 
-                    deine Anliegen besprechen und schauen, wie ich dich bestmöglich unterstützen kann.
+                    Gerne biete ich Dir ein unverbindliches Erstgespräch an, in dem wir 
+                    Deine Anliegen besprechen und schauen, wie ich Dich bestmöglich unterstützen kann.
                   </p>
                   <div className="space-y-3">
                     <div className="p-4 bg-therapy-neutral/30 rounded-lg">
