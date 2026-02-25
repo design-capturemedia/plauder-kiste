@@ -78,7 +78,8 @@ const Index = () => {
                   src="/lovable-uploads/2055aba2-395e-4ec2-bb27-5fa4b32e1798.png" 
                   alt="Professionelle Hypnosetherapeutin und Coach - Vertrauensvolle Beratung für Ihr Wohlbefinden"
                   className="w-full h-[300px] sm:h-[400px] object-cover"
-                  loading="lazy"
+                  loading="eager"
+                  fetchPriority="high"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent"></div>
               </div>
