@@ -50,7 +50,7 @@ const Index = () => {
                   <span className="text-primary block">Lebensqualität</span>
                 </h1>
                 <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                  Professionelle Hypnosetherapie und Beziehungscoaching im Grossraum Zürich. In vertrauensvoller Atmosphäre finden wir Lösungen für Deine persönlichen Herausforderungen.
+                  Professionelle Hypnosetherapie und Beziehungscoaching im Grossraum Zürich. In vertrauensvoller Atmosphäre finden wir Lösungen für Deine/Eure persönlichen Herausforderungen.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
