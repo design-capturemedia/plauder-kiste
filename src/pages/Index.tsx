@@ -86,6 +86,9 @@ const Index = () => {
               <p className="text-center mt-3 text-sm text-muted-foreground italic">
                 Michèle Raue - Hypnose- und Paartherapeutin
               </p>
+              <p className="text-center mt-3 text-sm text-muted-foreground leading-relaxed max-w-md mx-auto">
+                Meine reiche Lebenserfahrung und mein Talent auf andere Menschen einzugehen kann ich seit 2018 als Hypnosetherapeutin und Paar-Coach einsetzen und vielen Menschen damit helfen.
+              </p>
             </div>
           </div>
         </div>
