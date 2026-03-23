@@ -75,7 +75,7 @@ serve(async (req) => {
       message,
       subject: "Kontaktformular",
       from_name: "Hypnose und Paartherapie Website",
-      to_email: "carlo.faessler@cptr.com",
+      to_email: "mraue19@gmail.com",
     };
 
     console.log('Sending contact form submission for:', email);
