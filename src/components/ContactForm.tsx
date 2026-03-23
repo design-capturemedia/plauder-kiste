@@ -84,7 +84,7 @@ export const ContactForm = () => {
         </div>
         <CardTitle className="text-lg font-display font-medium">Kontaktieren Sie mich</CardTitle>
         <CardDescription>
-          Haben Sie Fragen oder möchten Sie einen Termin vereinbaren? Schreiben Sie mir gerne eine Nachricht.
+          Haben Sie Fragen oder möchten Sie einen Termin vereinbaren? Rufen Sie mich an unter 079 605 58 88 oder hinterlassen Sie mir eine Nachricht.
         </CardDescription>
       </CardHeader>
       <CardContent>
