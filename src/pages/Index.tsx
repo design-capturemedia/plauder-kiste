@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Heart, Brain, Users, Mail, Phone, MapPin } from "lucide-react";
 import heroImage from "@/assets/hero-therapy.jpg";
 import { MobileNavigation } from "@/components/MobileNavigation";
-import { ContactForm } from "@/components/ContactForm";
+
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -60,9 +60,9 @@ const Index = () => {
                   className="shadow-soft h-12 px-6"
                   asChild
                 >
-                  <a href="#contact-form" className="inline-flex items-center">
+                  <a href="#contact" className="inline-flex items-center">
                     <Phone className="mr-2 h-4 w-4" />
-                    Kontaktformular
+                    Kontakt
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" className="h-12 px-6" asChild>
@@ -91,12 +91,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Contact Form Section */}
-      <section id="contact-form" className="py-12 sm:py-16 bg-gradient-soft">
-        <div className="container mx-auto px-4 sm:px-6">
-          <ContactForm />
-        </div>
-      </section>
 
       {/* Services Section */}
       <section id="services" className="py-12 sm:py-16 bg-background">
