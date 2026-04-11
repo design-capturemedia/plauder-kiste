@@ -413,7 +413,7 @@ const Index = () => {
                 Kontakt & Terminvereinbarung
               </h2>
               <p className="text-base sm:text-lg text-muted-foreground">
-                Bitte kontaktiere mich unverbindlich telefonisch oder über das Kontaktformular.
+                Bitte kontaktiere mich unverbindlich telefonisch oder sende mir eine E-Mail
               </p>
             </div>
             
@@ -476,9 +476,15 @@ const Index = () => {
                       <p className="text-sm text-muted-foreground">Kostenlos & unverbindlich</p>
                     </div>
                     <Button className="w-full shadow-soft h-12" size="lg" asChild>
-                      <a href="#contact-form">
+                      <a href="tel:+41796055888">
                         <Phone className="mr-2 h-4 w-4" />
-                        Kontaktformular
+                        Jetzt anrufen
+                      </a>
+                    </Button>
+                    <Button variant="outline" className="w-full h-12" size="lg" asChild>
+                      <a href="mailto:mraue19@gmail.com">
+                        <Mail className="mr-2 h-4 w-4" />
+                        E-Mail senden
                       </a>
                     </Button>
                   </div>
