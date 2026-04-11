@@ -48,6 +48,20 @@ export const ContactForm = () => {
   const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
     try {
+      // Save to database
+      const submissionId = crypto.randomUUID();
+      const { error: dbError } = await supabase.from('contact_submissions').insert({
+        id: submissionId,
+        name: data.name,
+        email: data.email,
+        phone: data.phone,
+        message: data.message,
+      });
+
+      if (dbError) {
+        console.error("Database save error:", dbError);
+      }
+
       // Send email via backend edge function
       const { data: result, error } = await supabase.functions.invoke('send-contact-email', {
         body: {
