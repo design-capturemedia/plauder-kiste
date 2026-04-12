@@ -439,10 +439,10 @@ const Index = () => {
                     <div>
                       <p className="font-medium text-foreground">E-Mail</p>
                       <a 
-                        href="mailto:mraue19@gmail.com"
+                        href="mailto:hypnose.raue@gmail.com"
                         className="text-muted-foreground hover:text-primary transition-colors text-lg font-medium"
                       >
-                        mraue19@gmail.com
+                        hypnose.raue@gmail.com
                       </a>
                     </div>
                   </div>
@@ -482,7 +482,7 @@ const Index = () => {
                       </a>
                     </Button>
                     <Button variant="outline" className="w-full h-12" size="lg" asChild>
-                      <a href="mailto:mraue19@gmail.com">
+                      <a href="mailto:hypnose.raue@gmail.com">
                         <Mail className="mr-2 h-4 w-4" />
                         E-Mail senden
                       </a>
