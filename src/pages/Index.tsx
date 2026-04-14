@@ -205,8 +205,14 @@ const Index = () => {
                   <h3 className="text-base font-display font-medium text-foreground mt-6 mb-3">
                     Meine Philosophie
                   </h3>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    Ich bin überzeugt, dass lösungsorientiertes Arbeiten nachhaltige Veränderungen und schnelle Fortschritte ermöglicht. Gemeinsam entwickeln wir konkrete Lösungen für deine aktuellen Herausforderungen – Ansätze, die du direkt in deinem Alltag umsetzen kannst. Du lernst bewusst bessere Entscheidungen zu treffen, damit daraus langfristig stabile und unterstützende Verhaltensweisen werden.
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed mb-4">
+                    Ich bin überzeugt, dass jeder Mensch das Potenzial für ein ausgeglichenes, selbstbestimmtes Leben in sich trägt. Ich bleigleite dich dabei, dies zu spüren und zu entfalten.
+                  </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    In uns allen steckt ein riesiges Potenzial an Ressourcen. Ich stehe für lösungsorientiertes Arbeiten und Kurzzeit-Therapien. Wir erarbeiten zusammen Deinen Weg zu einem ausgeglichenen und besseren Leben. Ich biete Dir einen respektvollen Umgang in einem persönlichen und vertrauensvollen Raum, in dem Du Dich entfalten kannst.
+                    Bei mir findest du einen persönlichen und vertrauensvollen Raum, in dem du dich öffnen und dich in deinem Tempo weiterentwickeln kannst.
                   </p>
                 </CardContent>
               </Card>
