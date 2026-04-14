@@ -463,7 +463,7 @@ const Index = () => {
               
               <Card className="shadow-card border-0 bg-card">
                 <CardHeader>
-                  <CardTitle className="text-base sm:text-lg font-display font-medium">Erstberatung</CardTitle>
+                  <CardTitle className="text-base sm:text-lg font-display font-medium">Telefonische Erstberatung</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground">
